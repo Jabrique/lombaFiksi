@@ -65,7 +65,7 @@
 
     .active span:nth-child(1){
         transform-origin: 0;
-        transform: rotate(45deg);
+        transform: rotate(45deg) translate(-1px, 0);
     }
     .active span:nth-child(2){
         opacity: 0;
@@ -218,6 +218,11 @@
     
     .header__logoText{
         font-size: 25.89px;
+    }
+
+    .active span:nth-child(1){
+        transform-origin: 0;
+        transform: rotate(45deg) translate(1px, 3.5px);
     }
 
     .hamburger{
